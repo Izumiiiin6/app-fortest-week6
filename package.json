@@ -1,6 +1,7 @@
 {
   "name": "app-fortest-week6",
   "version": "0.1.0",
+  "type": "module", 
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,6 +10,8 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-fetch": "^3.3.1",
     "next": "16.4.0",
     "react": "19.3.0",
     "react-dom": "19.3.0"
